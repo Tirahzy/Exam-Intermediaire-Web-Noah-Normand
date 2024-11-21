@@ -32,6 +32,9 @@ header {
   opacity: 0px;
   color: white;
 }
+.loupe i:hover {
+  color: black;
+}
 .coeur i {
   position: absolute;
   width: 40px;
@@ -42,6 +45,9 @@ header {
   opacity: 0px;
   color: white;
 }
+.coeur i:hover {
+  color: black;
+}
 .people i {
   position: absolute;
   color: white;
@@ -51,6 +57,9 @@ header {
   left: 1355px;
   gap: 0px;
   opacity: 0px;
+}
+.people i:hover {
+  color: black;
 }
 #hero {
   position: relative;
@@ -90,7 +99,7 @@ main {
 }
 #CTA {
   width: auto;
-  height: 1301px;
+  height: auto;
 }
 #Voyageur {
   display: flex;
@@ -109,11 +118,24 @@ main {
   padding: 50px;
 }
 #conteneur_bouton {
-  width: 100%;
+  display: flex;
+  justify-content: center;
+  width: 1440px;
   height: 240px;
-  background-image: url(../drive-download-20241121T121214Z-001/holiday.jpg);
-}
 
+  background-image: url(../drive-download-20241121T121214Z-001/holiday.jpg);
+  button {
+    width: 225px;
+    height: 100px;
+    background-color: #6a3460;
+    border-radius: 5px;
+    color: white;
+  }
+}
+button:hover{
+    background-color: white;
+    color: #6a3460;
+}
 footer {
   background-color: #6a3460;
   display: flex;
