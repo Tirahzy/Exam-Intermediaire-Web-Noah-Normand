@@ -1,0 +1,72 @@
+body {
+  width: 1440px;
+  background-color: #6a3460;
+}
+header {
+  width: 100%;
+  height: 100px;
+  top: 1px;
+  gap: 0px;
+  opacity: 0px;
+  display: flex;
+}
+.logo img {
+  width: 109.09px;
+  height: 100px;
+  position: absolute;
+  left: 110px;
+  gap: 0px;
+  opacity: 0px;
+  display: flex;
+}
+.loupe i {
+  display: flex;
+  position: absolute;
+  width: 40px;
+  height: 43.86px;
+  top: 36.21px;
+  left: 1217px;
+  gap: 0px;
+  opacity: 0px;
+  color: white;
+}
+.coeur i {
+  position: absolute;
+  width: 40px;
+  height: 37.28px;
+  top: 39.5px;
+  left: 1286px;
+  gap: 0px;
+  opacity: 0px;
+  color: white;
+}
+.people i {
+  position: absolute;
+  color: white;
+  width: 40px;
+  height: 50.44px;
+  top: 32.92px;
+  left: 1355px;
+  gap: 0px;
+  opacity: 0px;
+}
+.hero {
+  width: 100%;
+  height: 670px;
+  top: 101px;
+  gap: 0px;
+  opacity: 0px;
+  background-image: url("../drive-download-20241121T121214Z-001/santorini.jpg");
+  background-size: cover;
+}
+.hero titre {
+  position: absolute;
+  width: 507px;
+  height: 101.15px;
+  top: 263px;
+  left: 40px;
+  gap: 0px;
+  opacity: 0px;
+
+  background-color: #6a3460;
+}
